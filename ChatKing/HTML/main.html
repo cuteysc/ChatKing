@@ -1,15 +1,86 @@
 <html>
 <head>
-<meta name = "viewport" content = "initial-scale = 1.0, user-scalable = no" />
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" media="all and (orientation:portrait)" href="styles_portrait.css">
+<link rel="stylesheet" media="all and (orientation:landscape)" href="styles_landscape.css">
 <script type="text/javascript" src="NKit.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript">
+    NKRegisterClass("NKNotificationHandler");
+var application = new NKApplication();
+application.setStatusBarStyle("black");
+application.setStatusBarStyle("blacktranslucent");
+var navController = new NKNavigationController();
+navController.setTitle("口袋聊天室");
+navController.setTintColor(127, 62, 152);
+navController.show();
+setTimeout(function() {
+    NKAlert('test','This is test message');
+}, 3000);
+//setTimeout("test();",2000);
+//NKAlert("Button pressed", "11111111");
+function test() {
+    $('#yahoo').html('哈哈哈哈哈哈哈哈');
+    //NKAlert("12321","22222333333333333333333");
+    $('#yahoo').html('哈哈哈哈哈哈哈哈22222222222');
+}
+function playRadio() {
+    var radio = new NKInternetPlayer();
+    radio.playFromURL("http://img.labnol.org/files/unofficial-yahoo-song.mp3");
+}
+var playButton = new NKButton();
+playButton.init(15, 390, 60, 20, "playRadio");
+//playButton.setImage("play.png");
+playButton.show();
+</script>
+<style>
+h4 {
+    text-align: center;
+    color: #333;
+    background-image:url('images/Icon.png');
+}
+body {
+    background-image:url('images/Icon.png');
+}
+</style>
 </head>
 <body>
-
+<script type="text/javascript">
+    var addressBook = new NKContact();
+    function personSelected(name, phone, email) {
+        NKAlert("Person selected", "Name: "+name+" phone: "+phone+" email: "+email);
+    }
+var widtha = 320;
+function NKIsPageSupportsAutoOrientation() {
+    return "yes";
+}
+function pageDidRotate() {
+    //webView.init(0,0,window.innerWidth,window.innerHeight);
+}
+function pageWillRotate(degree) {
+    if(degree == -90 || degree == 90) {
+        webView.init(0, 0, window.innerWidth, window.innerHeight);
+    }
+    else {
+        webView.init(0, 0, window.innerWidth, window.innerHeight);
+    }
+}
+var webView = new NKWebView();
+webView.init(0, 0, window.innerWidth, window.innerHeight);
+webView.loadURL("http://missli2010.pixnet.net/blog");
+webView.setScalesToFit("yes");
+webView.show();
+</script>
+<h4>口袋聊天室 Version 1.0</h4>
 <p>NimbleKit is an SDK which allows developers quickly and easy create full featured iOS applications using just HTML and Javascript</p>
-
 <i>Tip:</i><br>
 Start developing your application from main.html file included in project
-
-</body>
+<p id="yahoo">12321</p>
+<a href="#" onClick="addressBook.showPeoplePicker('personSelected()')">Show People Picker</a>
+<a href="#" onclik="CallNKitAction('registerForNotifications?className=NKNotificationHandler');">Register Notifications</a><br>
+<a href="#" onclik="CallNKitAction('unregisterForRemoteNotifications?className=NKNotificationHandler');">Unregister Notifications</a>
+<img src="DSC_9290.JPG" alt="" width="330px" />
+<script type="text/javascript">
+</script>
 </html>

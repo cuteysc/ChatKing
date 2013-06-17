@@ -16,22 +16,41 @@
 		524C683D145EADEA00428B3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 524C683C145EADEA00428B3C /* AppDelegate.m */; };
 		524C683F145EADEA00428B3C /* NKit.js in Resources */ = {isa = PBXBuildFile; fileRef = 524C683E145EADEA00428B3C /* NKit.js */; };
 		524C6843145EADEA00428B3C /* main.html in Resources */ = {isa = PBXBuildFile; fileRef = 524C6842145EADEA00428B3C /* main.html */; };
+		525C0CCB161C286000493C4E /* page1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 525C0CCA161C286000493C4E /* page1.htm */; };
+		52B65F58145EB38C00B48C72 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B65F51145EB38C00B48C72 /* Icon-72.png */; };
+		52B65F59145EB38C00B48C72 /* Icon-iTunes.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B65F52145EB38C00B48C72 /* Icon-iTunes.png */; };
+		52B65F5A145EB38C00B48C72 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B65F53145EB38C00B48C72 /* Icon-Small-50.png */; };
+		52B65F5B145EB38C00B48C72 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B65F54145EB38C00B48C72 /* Icon-Small.png */; };
+		52B65F5C145EB38C00B48C72 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B65F55145EB38C00B48C72 /* Icon-Small@2x.png */; };
+		52B65F5D145EB38C00B48C72 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B65F56145EB38C00B48C72 /* Icon.png */; };
+		52B65F5E145EB38C00B48C72 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B65F57145EB38C00B48C72 /* Icon@2x.png */; };
+		52CF3E27161C51E60035F6A9 /* DSC_9290.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 52CF3E26161C51E60035F6A9 /* DSC_9290.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5208C183145EBEE00086C575 /* ChatKing copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ChatKing copy-Info.plist"; path = "/Users/ysc/Desktop/ChatKing/ChatKing copy-Info.plist"; sourceTree = "<absolute>"; };
 		524C6827145EADEA00428B3C /* ChatKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524C682B145EADEA00428B3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		524C682D145EADEA00428B3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		524C682F145EADEA00428B3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		524C6833145EADEA00428B3C /* ChatKing-Info.plist */ = {isa = PBXFileReference; path = "ChatKing-Info.plist"; sourceTree = "<group>"; };
+		524C6833145EADEA00428B3C /* ChatKing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChatKing-Info.plist"; sourceTree = "<group>"; };
 		524C6835145EADEA00428B3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		524C6837145EADEA00428B3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		524C6839145EADEA00428B3C /* ChatKing-Prefix.pch */ = {isa = PBXFileReference; path = "ChatKing-Prefix.pch"; sourceTree = "<group>"; };
+		524C6839145EADEA00428B3C /* ChatKing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatKing-Prefix.pch"; sourceTree = "<group>"; };
 		524C683A145EADEA00428B3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		524C683C145EADEA00428B3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		524C683E145EADEA00428B3C /* NKit.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = NKit.js; path = /Library/Frameworks/NimbleKit/NKit.js; sourceTree = "<absolute>"; };
-		524C6840145EADEA00428B3C /* NKit.xcconfig */ = {isa = PBXFileReference; name = NKit.xcconfig; path = /Library/Frameworks/NimbleKit/NKit.xcconfig; sourceTree = "<absolute>"; };
+		524C6840145EADEA00428B3C /* NKit.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = NKit.xcconfig; path = /Library/Frameworks/NimbleKit/NKit.xcconfig; sourceTree = "<absolute>"; };
 		524C6842145EADEA00428B3C /* main.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = main.html; path = HTML/main.html; sourceTree = "<group>"; };
+		525C0CCA161C286000493C4E /* page1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = page1.htm; sourceTree = "<group>"; };
+		52B65F51145EB38C00B48C72 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		52B65F52145EB38C00B48C72 /* Icon-iTunes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iTunes.png"; sourceTree = "<group>"; };
+		52B65F53145EB38C00B48C72 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		52B65F54145EB38C00B48C72 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		52B65F55145EB38C00B48C72 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		52B65F56145EB38C00B48C72 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		52B65F57145EB38C00B48C72 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		52CF3E26161C51E60035F6A9 /* DSC_9290.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_9290.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,7 @@
 				524C6831145EADEA00428B3C /* ChatKing */,
 				524C682A145EADEA00428B3C /* Frameworks */,
 				524C6828145EADEA00428B3C /* Products */,
+				5208C183145EBEE00086C575 /* ChatKing copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +98,13 @@
 		524C6831145EADEA00428B3C /* ChatKing */ = {
 			isa = PBXGroup;
 			children = (
+				52B65F51145EB38C00B48C72 /* Icon-72.png */,
+				52B65F52145EB38C00B48C72 /* Icon-iTunes.png */,
+				52B65F53145EB38C00B48C72 /* Icon-Small-50.png */,
+				52B65F54145EB38C00B48C72 /* Icon-Small.png */,
+				52B65F55145EB38C00B48C72 /* Icon-Small@2x.png */,
+				52B65F56145EB38C00B48C72 /* Icon.png */,
+				52B65F57145EB38C00B48C72 /* Icon@2x.png */,
 				524C683A145EADEA00428B3C /* AppDelegate.h */,
 				524C683C145EADEA00428B3C /* AppDelegate.m */,
 				524C6841145EADEA00428B3C /* HTML */,
@@ -102,7 +129,9 @@
 		524C6841145EADEA00428B3C /* HTML */ = {
 			isa = PBXGroup;
 			children = (
+				52CF3E26161C51E60035F6A9 /* DSC_9290.JPG */,
 				524C6842145EADEA00428B3C /* main.html */,
+				525C0CCA161C286000493C4E /* page1.htm */,
 			);
 			name = HTML;
 			sourceTree = "<group>";
@@ -132,6 +161,9 @@
 /* Begin PBXProject section */
 		524C681E145EADEA00428B3C /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
 			buildConfigurationList = 524C6821145EADEA00428B3C /* Build configuration list for PBXProject "ChatKing" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -158,6 +190,15 @@
 				524C683B145EADEA00428B3C /* AppDelegate.h in Resources */,
 				524C683F145EADEA00428B3C /* NKit.js in Resources */,
 				524C6843145EADEA00428B3C /* main.html in Resources */,
+				52B65F58145EB38C00B48C72 /* Icon-72.png in Resources */,
+				52B65F59145EB38C00B48C72 /* Icon-iTunes.png in Resources */,
+				52B65F5A145EB38C00B48C72 /* Icon-Small-50.png in Resources */,
+				52B65F5B145EB38C00B48C72 /* Icon-Small.png in Resources */,
+				52B65F5C145EB38C00B48C72 /* Icon-Small@2x.png in Resources */,
+				52B65F5D145EB38C00B48C72 /* Icon.png in Resources */,
+				52B65F5E145EB38C00B48C72 /* Icon@2x.png in Resources */,
+				525C0CCB161C286000493C4E /* page1.htm in Resources */,
+				52CF3E27161C51E60035F6A9 /* DSC_9290.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +235,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
+				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -207,8 +248,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
 		};
@@ -219,13 +261,13 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -238,9 +280,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChatKing/ChatKing-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ChatKing/ChatKing-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = /Library/Frameworks/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = /Library/Frameworks/NimbleKit/;
 				WRAPPER_EXTENSION = app;
 			};
@@ -252,9 +297,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChatKing/ChatKing-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ChatKing/ChatKing-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = /Library/Frameworks/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = /Library/Frameworks/NimbleKit/;
 				WRAPPER_EXTENSION = app;
 			};
@@ -279,6 +327,7 @@
 				524C6848145EADEA00428B3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

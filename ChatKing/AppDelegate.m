@@ -22,7 +22,7 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     extern BOOL _mainWebViewLoaded;
-    Nimble *nimble = [[Nimble alloc] initWithRootPage:@"main.html" window:self.window serial:@""];
+    Nimble *nimble = [[Nimble alloc] initWithRootPage:@"main.html" window:self.window serial:@"6DF6-6D40-8F72-A482"];
     [nimble release]; 
     [self.window makeKeyAndVisible];
     while (!_mainWebViewLoaded) {
